@@ -372,41 +372,43 @@
     <p class="form-text">Leave your contacts and we will call you back</p>
     <form>
         <div class="form">
-        <label class="form-name" for="user-name">Name</label>
+            <label class="form-name" for="user-name">Name</label>
             <div class="field-wrapper">
                 <input class="icon-wrapper" type="text" name="user-name" id="user-name"/>
                 <svg class="icons-form" width="18" height="24">
                     <use href="./images/icons.svg#icon-user"></use>
                 </svg>
-            </div>
-            <div class="field-wrapper">
+            </div></div>
+        <div class="form">
             <label class="form-name" for="phone">Phone</label>
-                <input class="icon-wrapper" type="phone" name="phone" id="phone"/>
+            <div class="field-wrapper">
+                <input class="icon-wrapper" type="tel" name="phone" id="phone"/>
                 <svg class="icons-form" width="18" height="24">
                     <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
-            </div>
-            <div class="field-wrapper">
+            </div></div>
+        <div class="form">
             <label class="form-name" for="email">Email</label>
+            <div class="field-wrapper">
                 <input class="icon-wrapper" type="email" name="email" id="email"/>
                 <svg class="icons-form" width="18" height="24">
                     <use href="./images/icons.svg#icon-email"></use>
                 </svg>
-            </div>
-            <div class="field-wrapper-comment">
+            </div></div>
+        <div class="field-wrapper-comment">
             <label class="form-name" for="user-comment">Comment</label>
                 <textarea class="textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
                     <input class="icon-wrapper" type="checkbox" name="policy" id="policy"/>
             </div>
-            <div class="policy">
+        <div class="policy">
                 <input class="visually-hidden" id="user-privacy" type="checkbox"  value="true"  name="user-privacy"/>
                 <label for="user-privacy" class="privacy">
                     <span class="privacy-check">
                         <svg width="10" height="8">
                             <use href="./images/icons.svg#Checkbox"></use>
-                        </svg>
-                    </span>
-                    I accept the terms and conditions of the Privacy Policy</label>
+                        </svg></span>
+                    I accept the terms and conditions of the 
+                    <a href="" class="privacy-policy">Privacy Policy</a></label>
             </div>
         <button class="bottom-send" type="submit">Send</button>
     </div>
