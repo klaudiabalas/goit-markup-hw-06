@@ -723,11 +723,9 @@ body{
 
 .email{
     display:flex;
-}
-
-.email-form{
     gap:24px;
 }
+
 
 .mail-decoration{
     width: 264px;
@@ -741,7 +739,6 @@ body{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
-    gap:24px;
 }
 
 
