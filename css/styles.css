@@ -592,6 +592,7 @@ body{
     justify-content: center;
     fill: transparent;
     cursor:pointer;
+    margin-right: 8px;
 }
 
 .privacy-policy{
@@ -616,7 +617,7 @@ body{
 
 
 .privacy-check:checked{
-    background-color:  #404bbf;;
+    background-color:  #404bbf;
     border: none; 
     fill: #F4F4FD;
 }
