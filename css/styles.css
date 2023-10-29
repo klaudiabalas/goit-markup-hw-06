@@ -581,6 +581,17 @@ body{
     display: block;
 }
 
+.privacy-checked{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+}
+
+
 .privacy-check{
     width: 16px;
     height: 16px;
@@ -590,9 +601,16 @@ body{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    justify-items: center;
     fill: transparent;
     cursor:pointer;
     margin-right: 8px;
+}
+
+.privacy-checked:checked + .privacy > span{
+    background-color: #404bbf;
+    border: none; 
+    fill: #F4F4FD;
 }
 
 .privacy-policy{
@@ -615,12 +633,6 @@ body{
     fill: #4D5AE5;
 }
 
-
-.privacy-check:checked{
-    background-color:  #404bbf;
-    border: none; 
-    fill: #F4F4FD;
-}
 
 .icons-form{
     position: absolute;
