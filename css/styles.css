@@ -630,6 +630,7 @@ body{
 
 .icons-wrapper:focus{
     border-color: #4D5AE5;
+    fill: #4d5ae5,
 }
 
 
